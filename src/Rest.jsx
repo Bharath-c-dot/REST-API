@@ -6,6 +6,7 @@ const Rest = () => {
     const [data,setdata] = useState([])
 
     useEffect(()=>{
+      
         fetch("https://jsonplaceholder.typicode.com/users")
         .then((fetchdata)=> fetchdata.json())
         .then((data)=>{
@@ -30,8 +31,9 @@ const Rest = () => {
     console.log(data)
 
   return (
+
     <div>
-      <Display data={data}/>
+      <Display userdata={data}/>
     </div>
   )
 }
