@@ -14,6 +14,7 @@ const Display = ({userdata}) => {
   return (
     <div>
       <h1> hello </h1>
+      {/* without return type of jsx */}
       {
         userdata.map((user)=>(
           <div>
@@ -23,6 +24,7 @@ const Display = ({userdata}) => {
           </div>
         ))
       }
+      {/* with return type of jsx */}
       {/* {
         userdata.map((user)=>{
           return(
@@ -33,7 +35,7 @@ const Display = ({userdata}) => {
           </div>
         );
         })
-        
+
       } */}
     </div>
   )
