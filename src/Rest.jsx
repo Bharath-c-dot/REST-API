@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Display from './Display'
 
 const Rest = () => {
 
@@ -30,7 +31,7 @@ const Rest = () => {
 
   return (
     <div>
-      
+      <Display data={data}/>
     </div>
   )
 }
