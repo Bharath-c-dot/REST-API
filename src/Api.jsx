@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Display from './Display'
 
-const Rest = () => {
+const Api = () => {
 
     const [data,setdata] = useState([])
 
@@ -38,4 +38,4 @@ const Rest = () => {
   )
 }
 
-export default Rest
+export default Api
